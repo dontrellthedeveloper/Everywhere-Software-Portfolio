@@ -12,6 +12,15 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/.generators
+.idea/.rakeTasks
+.idea/EverywhereSoftwherePortfolio.iml
+.idea/misc.xml
+.idea/modules.xml
+
+
 
 # Ignore uploaded files in development
 /storage/*
