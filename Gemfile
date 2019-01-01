@@ -62,3 +62,7 @@ gem 'bootstrap', '~> 4.2.1'
 gem 'jquery-rails'
 
 gem 'petergate', '~> 1.6', '>= 1.6.3'
+
+gem 'everywhere_software_view_tool', git: 'https://github.com/dontrellthedeveloper/everywhere_software_view_tool'
+
+
