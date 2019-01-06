@@ -1,0 +1,7 @@
+<div class="blog-header">
+  <div class="container blog-hcenter">
+    <h3 class="blog-title">Program to Pro Developer</h3>
+    <p class="lead blog-description blog-margin-t">Helping you become a software developer.</p>
+    <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
+  </div>
+</div>
