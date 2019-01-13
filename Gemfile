@@ -56,12 +56,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.2.4'
 gem 'devise', '~> 4.5'
-
 gem 'bootstrap', '~> 4.2.1'
-
 gem 'jquery-rails'
-
-
 gem 'petergate', '~> 1.6', '>= 1.6.3'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
@@ -75,6 +71,7 @@ gem 'dotenv-rails', '~> 2.5'
 gem 'cocoon', '~> 1.2', '>= 1.2.12'
 gem 'gritter', '~> 1.2'
 gem 'twitter', '~> 6.2'
+gem 'redis', '~> 4.1'
 
 
 
