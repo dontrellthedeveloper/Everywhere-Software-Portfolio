@@ -7,7 +7,7 @@ class BlogsController < ApplicationController
   # GET /blogs.json
   def index
     @blogs = Blog.page(params[:page]).per(5)
-    @page_title = "Everywhere Software Blog "
+    @page_title = "My Portfolio Blog"
   end
 
   # GET /blogs/1
@@ -71,7 +71,8 @@ class BlogsController < ApplicationController
     elsif @blog.published?
       @blog.draft!
     end
-  redirect_to blogs_url, notice: 'Post status has been updated.'
+
+    redirect_to blogs_url, notice: 'Post status has been updated.'
   end
 
   private
