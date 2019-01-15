@@ -1,7 +1,7 @@
 <div class="blog-header">
   <div class="container blog-hcenter">
-    <h1 class="masthead-brand"><%= link_to "Program to Pro Developer", blogs_path, class: 'nav-link blog-hcolor'   %></h1>
-    <p class="lead blog-description blog-margin-t">A blog crafted to help you become a software developer.</p>
+    <h1 class="masthead-brand blog-head-mt"><%= link_to "Program to Pro Developer", blogs_path, class: 'nav-link blog-hcolor'   %></h1>
+    <p class="lead blog-description blog-margin-t">Helping you become a software developer.</p>
     <span>
       <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
     </span>
