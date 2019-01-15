@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blog-special {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   margin-top: 20px;
 }
 
@@ -143,14 +143,26 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
 }
 
+.blog-colorred {
+  color: #eb0000;
+}
+
+.blog-colorlightblue {
+  color: dodgerblue;
+}
+
+.blog-colorblue {
+  color: #0000b8;
+}
+
 .blog-hcenter {
-  margin-bottom: 40px;
+  margin-bottom: 15px;
   text-align: center;
 }
 
 .blog-margin-t {
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 .main-margin-t {
