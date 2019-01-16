@@ -75,7 +75,7 @@ gem 'redis', '~> 4.1'
 gem 'redcarpet', '~> 3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.2'
 
-
+ruby "2.5.3"
 
 
 gem 'everywhere_software_view_tool', git: 'https://github.com/dontrellthedeveloper/everywhere_software_view_tool'
