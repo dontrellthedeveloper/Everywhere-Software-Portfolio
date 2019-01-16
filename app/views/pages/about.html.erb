@@ -3,9 +3,11 @@
     <h1>About Me</h1>
     <hr>
     <div class="row">
-      <div class="col-md-4">
-        <%= image_tag "IMG_5393.jpeg", width: 260, alt: "profile image", class: 'profile-img' %>
+      <div class="col-md-3">
+        <%= image_tag "IMG_5281.jpeg", width: 260, alt: "profile image", class: 'profile-img' %>
+      </div>
 
+      <div class="col-md-3">
         <div class="skills">
           <% @skills.each do |skill| %>
             <div class="skill">
@@ -14,7 +16,7 @@
                 <div
                   class="progress-bar progress-bar-striped progress-bar-animated <%= progressbar_colors %>"
                   role="progressbar"
-                  aria-valuenow="<%=	 skill.percent_utilized %>"
+                  aria-valuenow="<%= skill.percent_utilized %>"
                   aria-valuemax="100"
                   style="width: <%= skill.percent_utilized %>%"
                 ></div>
@@ -25,14 +27,18 @@
           <% end %>
         </div>
       </div>
-      <div class="col-md-8">
-        <p><b>Everywhere Software</b> is a technology company founded by Dontrell Washington.</p>
-        <p> My goal is simplifying the relationship between client and developer. Too often, developers fail to
+
+      <div class="col-md-6">
+        <p class="text-center">Everywhere Software is a technology company founded by Dontrell Washington.</p>
+        <hr>
+        <p class="text-center"> My goal is simplifying the relationship between client and developer. Too often, developers fail to
           communicate with clients throughout the development stages of a project, resulting in a product that fails to
           reach the customer's end goal.</p>
-        <p>For this reason, I utilize a development pattern that focuses on constant communication and transparent
+        <p class="text-center">For this reason, I utilize a development pattern that focuses on constant communication and transparent
           design templates. My projects are crafted to the client's specifications by giving daily updates. This ensures
           a product aligning with the client's objective. The end result is the right product.</p>
+        <hr>
+        <p class="text-center">Interested in working together? <a href="mailto:dontrellthedeveloper@hotmail.com?subject=PortfolioContact">  Send me an Email</a>.
 
         <p>
           <button
