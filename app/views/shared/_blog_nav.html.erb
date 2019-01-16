@@ -1,12 +1,23 @@
-<div class="blog-masthead">
+<nav class="navbar navbar-expand-md navbar-light bg-light">
   <div class="container blog-special">
-    <nav class="nav blog-nav d-flex align-items-center justify-content-center">
-      <h1 class="masthead-brand"><%= link_to "Everywhere Software", root_path, class: 'nav-link blog-hcolor'   %></h1>
-      <%#= link_to "Home", root_path, class: 'nav-link blog-hcolor'   %>
-      <%=  nav_helper 'nav-link blog-hcolor', 'span' %>
-      <%= login_helper 'nav-link blog-hcolor' %>
-    </nav>
+    <%= link_to "Everywhere Software", root_path, class: 'navbar-brand blog-hcolor' %>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav ml-auto">
+        <%= nav_helper 'nav-link blog-hcolor', 'span' %>
+        <%= login_helper 'nav-link blog-hcolor' %>
+      </ul>
+    </div>
   </div>
-</div>
+</nav>
+
+
+
+
+
+
 
 

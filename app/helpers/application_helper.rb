@@ -9,12 +9,13 @@ module ApplicationHelper
     end
   end
 
-  def source_helper(layout_name)
+  def source_helper(styles)
     if session[:source]
-      greeting = "Thanks for visiting me from #{session[:source]} and you are on the #{layout_name} layout"
-      content_tag(:p, greeting, class: "source-greeting" )
+      greeting = "Thanks for visiting me from #{session[:source]}, please feel free to #{link_to 'contact me', contact_path} if you'd like to work together "
+      content_tag(:div, greeting.html_safe, class: styles )
     end
   end
+
 
   def nav_items
   [
@@ -22,10 +23,10 @@ module ApplicationHelper
           url: about_me_path,
           title: 'About'
       },
-      {
-          url: contact_path,
-          title: 'Contact'
-      },
+      #{
+      #    url: contact_path,
+      #    title: 'Contact'
+      #},
       {
           url: blogs_path,
           title: 'Blog'
@@ -68,6 +69,14 @@ module ApplicationHelper
   def alert_generator msg
     js add_gritter(msg, title: "Everywhere Software", sticky: false, time: 3000)
   end
+
+  def progressbar_colors
+    colors = ['bg-primary','bg-success','bg-info','bg-warning','bg-danger']
+    random_number = rand(5)
+    colors[random_number]
+  end
+
+
 
 end
 
