@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .blog-margin-t {
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .main-margin-t {
@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blog-head-mt {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 
@@ -210,4 +210,9 @@ h1, h2, h3, h4, h5, h6 {
 img[alt="minipic"] {
   max-width: 100%;
   display: block;
+}
+
+.blog-htitle {
+  color: #1b1e21;
+  font-size: .8em;
 }
