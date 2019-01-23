@@ -9,6 +9,10 @@ module BlogsHelper
     end
   end
 
+  class CustomRender < Redcarpet::Render::HTML
+
+  end
+
   def markdown(text)
     coderayified = CodeRayify.new(filter_html: true, hard_wrap: true)
 
