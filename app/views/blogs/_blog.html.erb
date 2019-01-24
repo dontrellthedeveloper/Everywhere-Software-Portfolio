@@ -6,6 +6,6 @@
 <%= render partial: 'blogs/admin_actions', locals: { blog: blog} %>
 
   <p>
-    <%= markdown blog.body %>
+    <%= markdown blog.body.first(250) %>
   </p>
 </div>
