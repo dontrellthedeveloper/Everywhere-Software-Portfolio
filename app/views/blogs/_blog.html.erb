@@ -6,7 +6,7 @@
 <%= render partial: 'blogs/admin_actions', locals: { blog: blog} %>
 
   <p>
-    <%= markdown blog.body.first(250) %>
+    <%= markdown blog.body.first(750) %>
     <%= link_to "read more...", blog, class: 'blog-htitle' %>
   </p>
 </div>
