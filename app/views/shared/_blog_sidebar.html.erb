@@ -1,7 +1,7 @@
 <div class="col-sm-3 offset-sm-1 blog-sidebar">
   <div class="sidebar-module sidebar-module-inset">
     <h4>About</h4>
-    <p><i>Program to Pro Developer</i> is a blog dedicated to helping you become a web developer. Have a question? <a href="mailto:dontrellthedeveloper@hotmail.com?subject=BlogContact">Email me</a>.</p>
+    <p><i>Program to Pro Developer</i> is a blog dedicated to helping you become a software engineer. Have a question? <a href="mailto:dontrellthedeveloper@hotmail.com?subject=BlogContact">Email me</a>.</p>
   </div>
 
     <%= source_helper("alert alert-primary blog-sidebar-source") %>
@@ -13,6 +13,16 @@
     <p><%=	link_to topic.title, topic_path(topic)  %></p>
     <% end %>
   </div>
+
+  <div class="jumbotron p-3 text-white rounded">
+    <div class="px-0">
+      <h1 class="display-4 font-italic">Full-Stack Guide to Web Dev 2019</h1>
+      <p class="lead my-3">This blog post covers 8 essential topics on web development.</p>
+      <p><%= link_to "Continue reading...", "https://everywhere-software-portfolio.herokuapp.com/blogs/my-great-blog", class: 'lead mb-0 text-white font-weight-bold' %></p>
+    </div>
+  </div>
+
+
 
   <div class="sidebar-module">
     <h4>Elsewhere</h4>

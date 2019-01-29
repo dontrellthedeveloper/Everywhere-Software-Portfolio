@@ -225,3 +225,13 @@ img[alt="minipic"] {
 .blog-main {
   line-height: 2;
 }
+
+.jumbotron {
+  margin-bottom: 0px;
+  background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url("https://i.ibb.co/bm4HCdh/luca-bravo-217276-unsplash.jpg");
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+}
