@@ -67,14 +67,9 @@ module ApplicationHelper
 
 
   def alert_generator msg
-    js add_gritter(msg, title: "Everywhere Software", sticky: false, time: 3000)
+    js add_gritter(msg, title: "Everywhere Software", sticky: false, time: 1000)
   end
 
-  def progressbar_colors
-    colors = ['bg-primary','bg-success','bg-info','bg-warning','bg-danger']
-    random_number = rand(5)
-    colors[random_number]
-  end
 
 
 

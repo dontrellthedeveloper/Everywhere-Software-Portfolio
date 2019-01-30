@@ -9,6 +9,10 @@ class ApplicationController < ActionController::Base
   def set_copyright
     @copyright = EverywhereSoftwareTool::Renderer.copyright 'Everywhere Software', 'All rights reserved'
   end
+
+  def non_footer_action
+    @skip_footer = true
+  end
 end
 
 
