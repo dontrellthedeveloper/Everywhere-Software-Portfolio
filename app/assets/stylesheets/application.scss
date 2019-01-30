@@ -181,6 +181,14 @@ h6, .h6 {
   text-align: left;
 }
 
+.outline-about {
+  outline: 2px solid black;
+}
+
+.outline-login {
+  outline: 3px solid black;
+}
+
 .auth-links a {
   color: black;
 }
@@ -244,6 +252,7 @@ h6, .h6 {
 .app-card-container {
   color: black;
   text-align: left;
+  outline: 1px solid black;
 }
 
 .app-card-container > .card {
@@ -270,4 +279,30 @@ h6, .h6 {
 
 .hcolor-w a {
   color: white;
+}
+
+.blog-hcolor {
+  color: #1d1d1d;
+}
+
+.blog-hcolor:hover {
+  color: #e2e2e2;
+}
+
+.footer-color-m {
+  color: black;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url("https://i.ibb.co/gzg9mWW/image-2019-01-29-1.jpg");
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.home-blogs-c {
+  margin: 0 auto;
 }

@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 :root {
-  --jumbotron-padding-y: 3rem;
+  --jumbotron-padding-y: .5rem;
 }
 
 .jumbotron {
@@ -72,3 +72,9 @@ h5 a,
 h6 a {
   color: #ffb80a;
 }
+
+.blog-special {
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+

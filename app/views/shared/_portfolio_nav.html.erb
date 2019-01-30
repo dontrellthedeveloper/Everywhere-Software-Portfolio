@@ -1,32 +1,16 @@
-<header>
-  <div class="collapse bg-dark" id="navbarHeader">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 col-md-7 py-4">
-          <h4 class="text-white">About</h4>
-          <p class="text-muted">This portfolio includes full-stack applications and static websites. Each software app includes a website example. For custom projects, please email
-            <a href="mailto:dontrellthedeveloper@hotmail.com?subject=PortfolioContact" class="text-warning">dontrellthedeveloper@hotmail.com</a>.</p>
-        </div>
-        <div class="col-sm-4 offset-md-1 py-4">
-          <h5 class="text-white">Everywhere Software</h5>
-          <ul class="list-unstyled">
-            <%=  nav_helper 'text-white', 'li' %>
-            <li><%=	 login_helper 'text-white' %></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="navbar navbar-dark bg-dark box-shadow">
-    <div class="container d-flex justify-content-between">
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <div class="container blog-special">
+    <%= link_to "Everywhere Software", root_path, class: 'navbar-brand blog-hcolor' %>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <a href="<%=	root_path  %>" class="navbar-brand d-flex align-items-center">
-        <strong>Everywhere Software</strong>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav ml-auto">
+        <%= nav_helper 'nav-link blog-hcolor', 'span' %>
+        <%= login_helper 'nav-link blog-hcolor' %>
+      </ul>
     </div>
   </div>
-</header>
+</nav>
 
