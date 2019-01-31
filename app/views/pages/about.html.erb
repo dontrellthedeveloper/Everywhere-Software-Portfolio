@@ -4,34 +4,14 @@
       <h1 class="text-center">About Me</h1>
       <hr>
       <div class="row">
-        <div class="col-md-3 text-center">
+        <div class="col-md-4 text-center">
           <%= image_tag "IMG_5281.jpeg", width: 260, alt: "profile image", class: 'profile-img' %>
         </div>
 
-        <div class="col-md-3">
-          <div class="skills">
-            <% @skills.each do |skill| %>
-              <div class="skill">
-                <h4><%= skill.title %></h4>
-                <div class="progress">
-                  <div
-                    class="progress-bar progress-bar-striped"
-                    role="progressbar"
-                    aria-valuenow="<%= skill.percent_utilized %>"
-                    aria-valuemax="100"
-                    style="width: <%= skill.percent_utilized %>%"
-                  ></div>
-                </div>
-              </div>
 
-
-            <% end %>
-          </div>
-        </div>
-
-        <div class="col-md-6">
+        <div class="col-md-8">
           <p class="text-center">Everywhere Software is a technology company founded by Dontrell Washington.</p>
-          <hr>
+
           <p class="text-center"> My goal is simplifying the relationship between client and developer. Too often,
             developers fail to
             communicate with clients throughout the development stages of a project, resulting in a product that fails
@@ -68,6 +48,17 @@
             >
               Education
             </button>
+
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#languages"
+              aria-expanded="false"
+              aria-controls="languages"
+            >
+              Languages
+            </button>
           </p>
 
           <p>
@@ -86,6 +77,15 @@
             </div>
             <div class="card card-body">
               School 2
+            </div>
+          </div>
+
+          <div class="collapse" id="languages">
+            <div class="card card-body">
+              Programming Language 1
+            </div>
+            <div class="card card-body">
+              Programming Language 2
             </div>
           </div>
           </p>
