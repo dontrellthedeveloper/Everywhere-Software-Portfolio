@@ -113,6 +113,7 @@ h6, .h6 {
   .nav-masthead {
     float: right;
   }
+
 }
 
 
@@ -145,12 +146,15 @@ h6, .h6 {
 @media (min-width: 40em) {
   /* Pull out the header and footer */
   .masthead {
-    position: fixed;
+
     top: 0;
   }
   .mastfoot {
-    position: fixed;
-    bottom: 0;
+    position: static;
+  }
+
+  .heading-fix-t {
+    position: relative;
   }
   /* Start the vertical centering */
   .site-wrapper-inner {
@@ -168,8 +172,9 @@ h6, .h6 {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 75rem;
+    width: 78rem;
   }
+
 }
 
 /*
@@ -242,7 +247,7 @@ h6, .h6 {
 }
 
 .tech-page-m {
-  margin-top: 120px;
+  margin-top: 60px;
 }
 
 .tech-page-h {
@@ -305,4 +310,32 @@ h6, .h6 {
 
 .home-blogs-c {
   margin: 0 auto;
+}
+
+.special-margin {
+  margin-top: 100px;
+}
+
+.homepage-margin {
+  margin-top: 7rem;
+  padding-bottom: 89px;
+}
+
+.pword-footer {
+  margin-top: 11rem;
+  padding-bottom: 87px;
+}
+
+.sup-footer {
+  margin-top: 11rem;
+  padding-bottom: 95px;
+}
+
+.about-foot-n {
+  margin-top: 3rem;
+  padding-bottom: 32px;
+}
+
+.cover-container {
+  height: 100%;
 }
