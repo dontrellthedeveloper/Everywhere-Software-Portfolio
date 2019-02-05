@@ -1,16 +1,20 @@
-<nav class="navbar navbar-expand-md navbar-light bg-light">
-  <div class="container blog-special">
-    <%= link_to "Everywhere Software", root_path, class: 'navbar-brand blog-hcolor' %>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<div class="masthead clearfix">
+  <div class="inner">
+    <nav class="navbar navbar-expand-md navbar-light" id="sticky-h">
+      <div class="container blog-special">
+        <%= link_to "Everywhere Software", root_path, class: 'navbar-brand home-hover-c' %>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav ml-auto">
-        <%= nav_helper 'nav-link blog-hcolor', 'span' %>
-        <%= login_helper 'nav-link blog-hcolor' %>
-      </ul>
-    </div>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav ml-auto">
+            <%= nav_helper 'nav-link blog-hcolor home-hover-c', 'span' %>
+            <%= login_helper 'nav-link blog-hcolor home-hover-c' %>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </div>
-</nav>
+</div>
 
