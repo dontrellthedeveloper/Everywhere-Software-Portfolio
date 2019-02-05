@@ -68,7 +68,7 @@ h6, .h6 {
 
 /* Padding for spacing */
 .inner {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 
@@ -313,29 +313,40 @@ h6, .h6 {
 }
 
 .special-margin {
-  margin-top: 100px;
+
 }
 
 .homepage-margin {
-  margin-top: 16rem;
-  padding-bottom: 89px;
+  margin-top: 10rem;
+  padding-bottom: 290px;
 }
 
 .pword-footer {
   margin-top: 11rem;
-  padding-bottom: 87px;
+  margin-bottom: 180px;
 }
 
 .sup-footer {
   margin-top: 11rem;
-  padding-bottom: 95px;
+  padding-bottom: 188px;
 }
 
 .about-foot-n {
   margin-top: 3rem;
-  padding-bottom: 32px;
+  padding-bottom: 148px;
 }
 
 .cover-container {
   height: 100%;
 }
+
+.home-hover-c:hover {
+  color: #e7e7e7 !important;
+}
+
+.sticky {
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
+}
+
