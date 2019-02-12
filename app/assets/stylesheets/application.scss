@@ -287,15 +287,16 @@ h6, .h6 {
 }
 
 .blog-hcolor {
-  color: #1d1d1d;
+  color: #ffffff !important;
 }
+
 
 .blog-hcolor:hover {
   color: #e2e2e2;
 }
 
 .footer-color-m {
-  color: black;
+  color: #ffffff;
 }
 
 .jumbotron {
@@ -317,7 +318,7 @@ h6, .h6 {
 }
 
 .homepage-margin {
-  margin-top: 10rem;
+  margin-top: 12rem;
   padding-bottom: 290px;
 }
 
@@ -340,8 +341,33 @@ h6, .h6 {
   height: 100%;
 }
 
+.home-hover-c {
+  color: #ffffff !important;
+}
+
+
+
+.main-header-outline {
+  font-size: 1.5em;
+  color: #ffffff !important;
+
+}
+
+.btn-info {
+  background-color: #8096a5 !important;
+  border-color: #fff !important;
+}
+
+.btn-info:hover {
+  background-color: #adc4d3 !important;
+}
+
+.btn-info:active {
+  background-color: #b9d0df !important;
+}
+
 .home-hover-c:hover {
-  color: #e7e7e7 !important;
+  color: #b9d0df !important;
 }
 
 .sticky {
