@@ -253,15 +253,25 @@ img[alt="minipic"] {
 }
 
 .text-new-h {
-  color: #92a5b4 !important;
+  color: #aec4d2 !important;
 }
 
 .just-a-color {
   color: #92a5b4 !important;
 }
 
+.just-a-color-2 {
+  color: #93a5b3 !important;
+}
+
+.just-a-color-2:hover {
+  color: #c6deeb !important;
+}
+
+
+
 .text-new-h:hover {
-  color: #b9d0df !important;
+  color: #74808d !important;
 }
 
 .text-new-bg:hover {
@@ -269,7 +279,7 @@ img[alt="minipic"] {
 }
 
 p a {
-  color: #a0b3c2;
+  color: #aec4d2;
 }
 
 h1 a,
@@ -278,5 +288,18 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-  color: #a0b3c2;
+  color: #aec4d2;
+}
+
+p a:hover {
+  color: #74808d;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  color: #74808d;
 }
