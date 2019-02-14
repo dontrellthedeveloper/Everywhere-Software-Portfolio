@@ -109,6 +109,29 @@ h6 a {
   border-color: black;
 }
 
+.btn-warning:active {
+  background-color: #8096a5 !important;
+  border-color: #8096a5;
+}
+
+.btn-info {
+  background-color: #b9d0df !important;
+  border-color: black;
+  color: black !important;
+}
+
+.btn-info:hover {
+  background-color: #8096a5 !important;
+  border-color: black;
+}
+
+.btn-info:active {
+  background-color: #8096a5 !important;
+  border-color: #8096a5;
+}
+
+
+
 .text-new-bg {
   color: #b9d0df !important;
 }
