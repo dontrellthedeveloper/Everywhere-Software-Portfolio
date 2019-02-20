@@ -232,7 +232,7 @@ h6, .h6 {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image_url('home_bg.png') no-repeat;
+  background: image_url('Mountain.jpg') no-repeat;
   background-size: cover;
 }
 
@@ -395,7 +395,7 @@ h6, .h6 {
 @media (max-width: 900px) {
 
   .homepage-margin {
-    margin-top: 4rem;
+    margin-top: 2rem;
     padding-bottom: 340px;
   }
 
