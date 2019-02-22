@@ -1,6 +1,6 @@
 <div class="col-sm-3 offset-sm-1 blog-sidebar">
   <div class="sidebar-module sidebar-module-inset">
-    <h4>About</h4>
+    <h4 class="blog-hsize">About</h4>
     <p><i>Program to Pro Developer</i> is a blog dedicated to helping you become a software engineer. Have a question? <a href="mailto:dontrellthedeveloper@hotmail.com?subject=BlogContact" class="text-new-h">Email me</a>.</p>
   </div>
 
@@ -8,31 +8,27 @@
 
 
   <div class="sidebar-module">
-  <h4>Topics</h4>
+  <h4 class="blog-hsize">Topics</h4>
     <%	@side_bar_topics.each do |topic|  %>
     <p><%=	link_to topic.title, topic_path(topic), class: 'text-new-h'  %></p>
     <% end %>
   </div>
 
-  <h4>Featured Posts</h4>
+  <h4 class="blog-hsize">Featured Posts</h4>
   <div class="jumbotron p-3 text-white rounded">
     <div class="px-0">
-      <h1 class="display-4 font-italic">Guide to Web Dev 2019</h1>
-      <p class="lead my-3">This blog post covers 8 essential topics on web development.</p>
-      <p><%= link_to "Continue reading...", "https://everywhere-software-portfolio.herokuapp.com/blogs/my-great-blog", class: 'lead mb-0 text-white font-weight-bold' %></p>
+      <h1 class="display-4 font-italic blog-hsize4">Guide to Web Dev 2019</h1>
+      <p class="lead my-3 blog-hsize5">This blog post covers 8 essential topics on web development.</p>
+      <p><%= link_to "Continue reading...", "https://everywhere-software-portfolio.herokuapp.com/blogs/my-great-blog", class: 'lead mb-0 text-white font-weight-bold blog-hsize5' %></p>
     </div>
   </div>
 
-
+  <hr>
 
   <div class="sidebar-module">
-    <h4>Elsewhere</h4>
+    <h4 class="blog-hsize">Elsewhere</h4>
     <ol class="list-unstyled social-links">
-      <li><a href="#"><%= fa_icon "youtube", class: 'blog-colorred' %></a></li>
-      <li><a href="#"><%= fa_icon "twitter", class: 'blog-colorlightblue' %></a></li>
-      <li><a href="#"><%= fa_icon "instagram", class: 'blog-hcolor' %></a></li>
-      <li><a href="#"><%= fa_icon "linkedin", class: 'blog-colorblue' %></a></li>
-      <li><a href="#"><%= fa_icon "github", class: 'blog-hcolor' %></a></li>
+      <li><a href="https://github.com/dontrellthedeveloper"><%= fa_icon "github", class: 'blog-hcolor' %></a></li>
     </ol>
   </div>
 </div>

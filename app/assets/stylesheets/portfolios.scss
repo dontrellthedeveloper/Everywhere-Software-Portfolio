@@ -147,3 +147,49 @@ h6 a {
 .text-new-h:hover {
   color: #cae3f2 !important;
 }
+
+@media (max-width: 750px) {
+
+  .blog-hsize {
+    font-size: 1.3rem;
+  }
+
+  .blog-hsize2 {
+    font-size: 1rem;
+  }
+
+  .blog-hsize3 {
+    font-size: 1.2rem;
+  }
+
+  .blog-hsize4 {
+    font-size: 1.7rem;
+  }
+
+  .blog-hsize5 {
+    font-size: 1.1rem;
+  }
+
+  .main-header-outline {
+    font-size: 1.025rem;
+  }
+
+  .btn-size1 {
+    width: 100px;
+    font-size: .77rem;
+  }
+
+  .home-hover-c {
+    font-size: 1.05rem;
+  }
+
+  .mastfoot {
+    font-size: .85rem;
+  }
+
+  .mastfoot2 {
+    font-size: .92rem;
+  }
+
+
+}
