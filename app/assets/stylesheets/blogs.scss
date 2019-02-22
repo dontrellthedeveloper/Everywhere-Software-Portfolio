@@ -307,7 +307,7 @@ h6 a:hover {
 
 
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
 
   .blog-hsize {
     font-size: 1.3rem;
@@ -335,6 +335,14 @@ h6 a:hover {
 
   .blog-footer {
     font-size: .85rem;
+  }
+
+  .blog-post-title {
+    font-size: 1.8rem;
+  }
+
+  .blog-post-meta {
+    font-size: .8rem;
   }
 
 }
