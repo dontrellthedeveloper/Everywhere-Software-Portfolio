@@ -1,20 +1,22 @@
-<div class="masthead clearfix">
-  <div class="inner">
-    <nav class="navbar navbar-expand-md navbar-dark" id="sticky-h">
-      <div class="container blog-special">
-        <%= link_to "Everywhere Software", root_path, class: 'navbar-brand home-hover-c text-new-h' %>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<div class="sticky-vh">
+  <div class="masthead clearfix">
+    <div class="inner">
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container blog-special">
+          <%= link_to "Everywhere Software", root_path, class: 'navbar-brand home-hover-c text-new-h' %>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-          <ul class="navbar-nav ml-auto">
-            <%= nav_helper 'nav-link blog-hcolor home-hover-c text-new-h', 'span' %>
-            <%= login_helper 'nav-link blog-hcolor home-hover-c text-new-h' %>
-          </ul>
+          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+              <%= nav_helper 'nav-link blog-hcolor home-hover-c text-new-h', 'span' %>
+              <%= login_helper 'nav-link blog-hcolor home-hover-c text-new-h' %>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
   </div>
 </div>
 

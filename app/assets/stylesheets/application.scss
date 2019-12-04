@@ -63,9 +63,9 @@ nav {
 }
 
 .carousel-inner .carousel-item {
-   transition: -webkit-transform 2s ease;
-   transition: transform 2s ease;
-   transition: transform 2s ease, -webkit-transform 2s ease;
+   transition: -webkit-transform 1s ease;
+   transition: transform 1s ease;
+   transition: transform 1s ease, -webkit-transform 1s ease;
  }
 
 @media screen and (max-width: 640px) {
@@ -588,5 +588,11 @@ h6 a:hover {
   margin-bottom: 10px;
 }
 
+.sticky-vh {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: .5px solid #9db6c7;
+}
 
 
