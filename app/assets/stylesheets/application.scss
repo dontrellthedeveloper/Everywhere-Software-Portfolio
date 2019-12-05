@@ -602,5 +602,18 @@ h6 a:hover {
 }
 
 
+@media (min-width: 768px) {
+  .logo-font-s {
+    font-size: 17px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-font-s {
+    margin-right: 25px;
+  }
+}
+
+
 
 
