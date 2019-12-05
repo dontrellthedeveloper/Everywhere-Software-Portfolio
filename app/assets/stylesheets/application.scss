@@ -298,8 +298,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blog-special {
-  margin-bottom: 5px;
-  margin-top: 5px;
+
 }
 
 .blog-hcolor {
@@ -594,5 +593,14 @@ h6 a:hover {
   z-index: 100;
 
 }
+
+.image-nav img {
+  width: 65px;
+  height: auto;
+  margin-top: 2px !important;
+  margin-bottom: 2px !important;
+}
+
+
 
 
