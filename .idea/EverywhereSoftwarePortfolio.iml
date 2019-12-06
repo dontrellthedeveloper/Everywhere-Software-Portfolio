@@ -84,6 +84,7 @@
     <orderEntry type="library" scope="PROVIDED" name="jmespath (v1.4.0, RVM: ruby-2.5.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v4.3.3, RVM: ruby-2.5.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-ui-rails (v6.0.1, RVM: ruby-2.5.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="json (v2.2.0, RVM: ruby-2.5.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="kaminari (v1.1.1, RVM: ruby-2.5.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="kaminari-actionview (v1.1.1, RVM: ruby-2.5.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="kaminari-activerecord (v1.1.1, RVM: ruby-2.5.3) [gem]" level="application" />
@@ -120,6 +121,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rails (v5.2.2, RVM: ruby-2.5.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-dom-testing (v2.0.3, RVM: ruby-2.5.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-html-sanitizer (v1.0.4, RVM: ruby-2.5.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails_real_favicon (v0.0.13, RVM: ruby-2.5.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="railties (v5.2.2, RVM: ruby-2.5.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v12.3.2, RVM: ruby-2.5.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rb-fsevent (v0.10.3, RVM: ruby-2.5.3) [gem]" level="application" />
@@ -129,6 +131,7 @@
     <orderEntry type="library" scope="PROVIDED" name="redis (v4.1.0, RVM: ruby-2.5.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="responders (v2.4.0, RVM: ruby-2.5.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ruby_dep (v1.5.0, RVM: ruby-2.5.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rubyzip (v1.3.0, RVM: ruby-2.5.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.7.2, RVM: ruby-2.5.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-listen (v4.0.0, RVM: ruby-2.5.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v5.0.7, RVM: ruby-2.5.3) [gem]" level="application" />
@@ -139,7 +142,6 @@
     <orderEntry type="library" scope="PROVIDED" name="spring-watcher-listen (v2.0.1, RVM: ruby-2.5.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v3.7.2, RVM: ruby-2.5.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.2.1, RVM: ruby-2.5.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sticky-rails (v1.0.3, RVM: ruby-2.5.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.20.3, RVM: ruby-2.5.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.6, RVM: ruby-2.5.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v2.0.9, RVM: ruby-2.5.3) [gem]" level="application" />
