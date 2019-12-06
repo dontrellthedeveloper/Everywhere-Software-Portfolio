@@ -6,7 +6,7 @@ module DefaultPageContent
   end
 
   def set_page_defaults
-    @page_title = "Everywhere Softwhere | Our Website"
+    @page_title = "Everywhere Softwhere"
     @seo_keywords = "Dontrell Washington portfolio"
   end
 end
